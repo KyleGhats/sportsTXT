@@ -16,18 +16,18 @@
 
 	<body data-bs-theme="dark">
 		<?php include './layouts/topnav.php'; ?>
-		<div class="">
+		<div class="page landing_main">
 			<?php echo $content; ?>
+			<?php include './layouts/footer.php'; ?>
 		</div>
-		<?php include './layouts/footer.php'; ?>
 	<?php } else { ?>
 
 		<body data-bs-theme="dark">
 			<?php include '../layouts/topnav.php'; ?>
-			<div class="page">
+			<div class="page ">
 				<?php echo $content; ?>
+				<?php include '../layouts/footer.php'; ?>
 			</div>
-			<?php include './layouts/footer.php'; ?>
 		<?php } ?>
 		</body>
 

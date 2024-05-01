@@ -1,13 +1,32 @@
 // QUERY FOR DESIGN BREAKS AND RESPONSIVE DESIGN
 
+@media screen and (min-width: 1400px) { // 2xl up
+	.landing_main {
+		background-size: 100%, 85%;
+	}
+}
 @media screen and (max-width: 1400px) { // 2xl
 }
 @media screen and (max-width: 1200px) { // xl
 }
 @media screen and (max-width: 992px) { // lg
+	.landing_main {
+		background-position: top center, bottom 250px center;
+		background-size: 115%, 130%;
+	}
+	.section_hero {
+		.hero_text_box {
+			margin-top: 20px;
+		}
+	}
 }
 @media screen and (max-width: 768px) { // md
-
+	.landing_main {
+		background: none;
+	}
+	.section {
+		padding: 20px 0 20px 0;
+	}
 }
 @media screen and (max-width: 576px) { // sm
 	

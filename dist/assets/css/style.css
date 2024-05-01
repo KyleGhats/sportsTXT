@@ -31,6 +31,13 @@
   font-weight: 700 !important;
 }
 
+.landing_main {
+  background-image: url("../img/hero_background.svg"), url("../img/platform_bg.svg");
+  background-repeat: no-repeat;
+  background-position: top center, bottom -50px center;
+  background-size: 100%, 110%;
+}
+
 .section_hero .hero_text_box {
   margin-top: -100px;
 }
@@ -54,4 +61,27 @@
 .section_how .hiw_box .hiw_box_item {
   border: 0;
   background-color: var(--bs-blue);
+}
+
+@media screen and (min-width: 1400px) {
+  .landing_main {
+    background-size: 100%, 85%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .landing_main {
+    background-position: top center, bottom 250px center;
+    background-size: 115%, 130%;
+  }
+  .section_hero .hero_text_box {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .landing_main {
+    background: none;
+  }
+  .section {
+    padding: 20px 0 20px 0;
+  }
 }

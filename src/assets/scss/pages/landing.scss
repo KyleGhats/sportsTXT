@@ -1,3 +1,10 @@
+.landing_main {
+	background-image: url('../img/hero_background.svg'), url('../img/platform_bg.svg');
+	background-repeat: no-repeat;
+	background-position: top center, bottom -50px center;
+	background-size: 100%, 110%;
+}
+
 .section_hero {
 	.hero_text_box {
 		margin-top: -100px;
