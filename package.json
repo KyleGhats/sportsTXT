@@ -38,7 +38,6 @@
     "not dead"
   ],
   "dependencies": {
-    "bootstrap": "^5.3.2",
     "gulp-avif": "^1.1.1"
   }
 }

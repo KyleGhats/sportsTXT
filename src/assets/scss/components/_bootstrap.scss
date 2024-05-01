@@ -1,1 +1,10 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+:root {
+	--bs-dark: #001222;
+	--bs-blue: #014076;
+	--bs-dark-rgb: 0, 18, 34;
+}
+
+[data-bs-theme=dark] {
+	--bs-body-bg: var(--bs-dark);
+}
+
