@@ -19,6 +19,15 @@
 			margin-top: 20px;
 		}
 	}
+	.section_features {
+		.img_box_ft {
+			background: none;
+			img {
+				box-shadow: 8px 5px 15px 4px rgba(235,72,82,.4);
+				border-radius: 25px;
+			}
+		}
+	}
 }
 @media screen and (max-width: 768px) { // md
 	.landing_main {

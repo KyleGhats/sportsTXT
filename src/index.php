@@ -10,7 +10,7 @@ include_once("./connect/session_check.php");
 
 <main >
 		<section class="section_hero container mx-auto ">
-			<div class=" col-xxl-8 px-4 py-5">
+			<div class="px-4 py-5">
 				<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 					<div class="col-10 col-sm-8 col-lg-6">
 						<img src="./assets/img/hero_img.avif" class="d-block mx-lg-auto img-fluid" alt="Athletes collage image" width="600" height="400" loading="lazy">
