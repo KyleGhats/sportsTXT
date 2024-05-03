@@ -18,17 +18,17 @@ include_once("../connect/session_check.php");
 	<section class="section_features">
 		<div class="container col-xxl-8 px-4 py-5">
 			<!-- Fanzone -->
-			<div class="row flex-lg-row-reverse  align-items-center g-5 py-5">
+			<div class="row flex-lg-row-reverse  align-items-center g-5 py-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
 				<div class="col-lg-6 order-lg-1 order-2">
 					<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">Fanzone</h1>
 					<p class="lead">QSportsTXT offers 24/7 protection for sports clubs with real-time monitoring and content analysis powered by a combination of human expertise and AI technology. With SportsTXT, clubs can be confident in the quality and safety of their reputation and all user-generated content.</p>
 				</div>
-				<div class="col-10 col-sm-8 col-lg-6 order-lg-2 order-1 img_box_ft">
+				<div class="col-12 col-sm-8 col-lg-6 order-lg-2 d-flex justify-content-center order-1 img_box_ft">
 					<img src="../assets/img/features/fanzone_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Chatroom UI Mobile" width="250" height="400" loading="lazy">
 				</div>
 			</div>
 			<!-- Video -->
-			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+			<div class="row flex-lg-row-reverse align-items-center g-5 py-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
 				<div class="col-10 col-sm-8 col-lg-6 img_box_ft">
 					<img src="../assets/img/features/video_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Video UI Mobile" width="250" height="400" loading="lazy">
 				</div>
@@ -38,12 +38,12 @@ include_once("../connect/session_check.php");
 				</div>
 			</div>
 			<!-- Podcast -->
-			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+			<div class="row flex-lg-row-reverse align-items-center g-5 py-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
 				<div class="col-lg-6 order-lg-1 order-2">
 					<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">Podcast</h1>
 					<p class="lead">Weekly updates, interviews, or tip of the week? Record a podcast on your phone and share it with your community</p>
 				</div>
-				<div class="col-10 col-sm-8 col-lg-6 order-lg-2 order-1 img_box_ft">
+				<div class="col-12 col-sm-8 col-lg-6 order-lg-2 d-flex justify-content-center order-1 img_box_ft">
 					<img src="../assets/img/features/podcast_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Podcast UI Mobile" width="250" height="400" loading="lazy">
 				</div>
 			</div>
@@ -94,3 +94,7 @@ include_once("../connect/session_check.php");
 
 <?php include '../layouts/base.php'; ?>
 <script src="../assets/js/default.js?=<?php echo $randomNumber; ?>"></script>
+<?php include '../layouts/script.php'; ?>
+<script>
+	AOS.init();
+</script>

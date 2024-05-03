@@ -30,14 +30,16 @@
 }
 @media screen and (max-width: 768px) { // md
 	.landing_main {
-		background: none;
+		background: none !important;
 	}
 	.section {
 		padding: 40px 0 40px 0;
 	}
 }
 @media screen and (max-width: 576px) { // sm
-	
+	.inner_page {
+		background: none !important;
+	}
 }
 @media screen and (max-width: 290px) { // xs
 

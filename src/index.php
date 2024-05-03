@@ -23,13 +23,13 @@ include_once("./connect/session_check.php");
 			</div>
 		</div>
 	</section>
-	<section class="section section_about container mx-auto ">
+	<section class="section section_about container mx-auto " data-aos="fade-up" data-aos-duration="1000">
 		<div class="row align-items-center about_container">
 			<div class="px-4 py-5 text-center">
 				<h1 class="display-5 fw-bold text-body-emphasis mb-4">What is SportsTXT?</h1>
 				<p class="lead mb-5 px-5">Being a sports fan is not just about watching games. SportsTXT is an online platform designed to deliver the ultimate sports fan experience. Engage with other fans, get insider facts about your favorite teams, and so much more.</p>
 				<div class="col-lg-12 mx-auto d-sm-block d-none">
-					<div class="about_img_container">
+					<div class="about_img_container" data-aos="slide-up" data-aos-duration="700">
 						<img src="./assets/img/about_img.avif" class="d-block mx-lg-auto img-fluid" alt="Football Field" width="700" height="400" loading="lazy">
 					</div>
 				</div>
@@ -40,7 +40,7 @@ include_once("./connect/session_check.php");
 		<div class=" px-4 py-md-5 py-3">
 			<div class="row flex-lg-row-reverse align-items-center g-5 py-md-5">
 				<div class="col-10 col-sm-8 col-lg-6">
-					<img src="./assets/img/mission.avif" class="d-block mx-lg-auto img-fluid" alt="coach teaching" width="450" height="500" loading="lazy">
+					<img src="./assets/img/mission.avif" data-aos="slide-up" data-aos-duration="700" class="d-block mx-lg-auto img-fluid" alt="coach teaching" width="450" height="500" loading="lazy">
 				</div>
 				<div class="col-lg-6">
 					<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">Our <span class="highlight_txt">Mission</span></h1>
@@ -49,7 +49,7 @@ include_once("./connect/session_check.php");
 			</div>
 		</div>
 	</section>
-	<section class="section section_how container mx-auto ">
+	<section class="section section_how container mx-auto " data-aos="fade-up" data-aos-duration="1000">
 		<div class=" px-4 py-md-5 py-3" id="featured-3">
 			<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 pb-4 border-bottom">How it Works?</h1>
 			<div class="row g-5 py-md-5 row-cols-1 row-cols-lg-3 hiw_box text-center">
@@ -145,6 +145,9 @@ include_once("./connect/session_check.php");
 <?php $content = ob_get_clean(); ?>
 
 <?php $scripts = ob_get_clean(); ?>
-
 <?php include './layouts/base.php'; ?>
 <script src="./assets/js/default.js?=<?php echo $randomNumber; ?>"></script>
+<?php include './layouts/script.php'; ?>
+<script>
+	AOS.init();
+</script>
