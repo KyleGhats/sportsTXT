@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
   --bs-dark: #001222;
   --bs-blue: #014076;
@@ -11,13 +11,18 @@
 }
 
 .section {
-  padding: 40px 0 40px 0;
+  padding: 60px 0 60px 0;
+}
+
+.fs-16 {
+  font-size: 16px !important;
 }
 
 .default_btn {
   border-radius: 0;
   background-color: #E61A27;
   color: #F9FAFB;
+  font-size: 18px;
   transition: all 0.3s;
 }
 .default_btn:hover {
@@ -38,7 +43,7 @@
 .landing_main {
   background-image: url("../img/hero_background.svg"), url("../img/platform_bg.svg");
   background-repeat: no-repeat;
-  background-position: top center, bottom -50px center;
+  background-position: top center, bottom 670px center;
   background-size: 100%, 110%;
 }
 
@@ -54,7 +59,7 @@
 }
 
 .section_about .about_container {
-  background-color: var(--bs-blue);
+  background: linear-gradient(288.08deg, rgba(2, 119, 220, 0.04) 4.53%, #014076 52.26%, rgba(2, 114, 211, 0.1264) 93.32%);
 }
 .section_about .about_container .about_img_container {
   width: 100%;
@@ -64,7 +69,7 @@
 
 .section_how .hiw_box .hiw_box_item {
   border: 0;
-  background-color: var(--bs-blue);
+  background: linear-gradient(180deg, #014076 0%, rgba(2, 119, 220, 0.2) 100%);
 }
 
 .section_hero_ft {
@@ -79,6 +84,10 @@
   background: radial-gradient(57.47% 57.29% at 50.06% 50.06%, #eb4852 0, rgba(0, 18, 34, 0) 75%);
 }
 
+.about_img {
+  border-radius: 0 !important;
+}
+
 @media screen and (min-width: 1400px) {
   .landing_main {
     background-size: 100%, 85%;
@@ -86,8 +95,7 @@
 }
 @media screen and (max-width: 992px) {
   .landing_main {
-    background-position: top center, bottom 250px center;
-    background-size: 115%, 130%;
+    background: none;
   }
   .section_hero .hero_text_box {
     margin-top: 20px;
@@ -105,11 +113,21 @@
     background: none;
   }
   .section {
-    padding: 20px 0 20px 0;
+    padding: 40px 0 40px 0;
   }
 }
+body,
+html {
+  font-family: "Inter", sans-serif !important;
+}
+
 .inner_page {
   background-image: url("../img/inner_page_bg.svg");
   background-repeat: no-repeat;
   background-position: top -400px center;
+}
+
+.section_cta {
+  padding: 40px 0;
+  background: linear-gradient(180deg, rgba(1, 55, 101, 0.8) 0%, rgba(0, 18, 34, 0.6) 85.5%);
 }
