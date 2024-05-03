@@ -14,4 +14,4 @@ http://localhost/yourFileName
 
 ## Tech Used
 
-<img src="https://skillicons.dev/icons?i=html,scss,bootstrap" /><br>
+<img src="https://skillicons.dev/icons?i=html,scss,bootstrap,php" /><br>
