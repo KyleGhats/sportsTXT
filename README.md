@@ -8,7 +8,7 @@
 
 ## Usage
 Before running the application locally, make sure you have XAMPP installed and running. Once XAMPP is running, you can access the application via the following URL:
-http://localhost/sportsTXT/dist/ or whichever folder name you cloned the project to.
+http://localhost/sportsTXT/dist/ or whichever folder name you cloned the project to, just ensure that it should be /dist/ instead of /src/
 
 ## Tech Used
 
