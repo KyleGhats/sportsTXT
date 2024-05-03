@@ -11,3 +11,7 @@ sportsTXT is a web application aimed at enhancing community engagement and reven
 ## Usage
 Before running the application locally, make sure you have XAMPP installed and running. Once XAMPP is running, you can access the application via the following URL:
 http://localhost/yourFileName
+
+## Tech Used
+
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap" /><br>
