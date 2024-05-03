@@ -1,8 +1,5 @@
 # sportsTXT
 
-## Description
-sportsTXT is a web application aimed at enhancing community engagement and revenue generation for sports clubs and teams. It provides a customizable platform for clubs to connect with their members and fans in real-time, offering personalized experiences and opening up new monetization opportunities.
-
 ## Setup
 1. Clone the project in your htdocs folder, make sure you have XAMPP installed .
 2. Open the project and run `npm install` to install project dependencies.
