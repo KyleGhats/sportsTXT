@@ -24,13 +24,13 @@ include_once("../connect/session_check.php");
 					<p class="lead">QSportsTXT offers 24/7 protection for sports clubs with real-time monitoring and content analysis powered by a combination of human expertise and AI technology. With SportsTXT, clubs can be confident in the quality and safety of their reputation and all user-generated content.</p>
 				</div>
 				<div class="col-10 col-sm-8 col-lg-6 order-lg-2 order-1 img_box_ft">
-					<img src="../assets/img/features/video_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Video UI Mobile" width="250" height="400" loading="lazy">
+					<img src="../assets/img/features/fanzone_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Chatroom UI Mobile" width="250" height="400" loading="lazy">
 				</div>
 			</div>
 			<!-- Video -->
 			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 				<div class="col-10 col-sm-8 col-lg-6 img_box_ft">
-					<img src="../assets/img/features/chatroom_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Chatroom UI Mobile" width="250" height="400" loading="lazy">
+					<img src="../assets/img/features/video_ft.avif" class="d-block mx-lg-auto img-fluid" alt="Video UI Mobile" width="250" height="400" loading="lazy">
 				</div>
 				<div class="col-lg-6">
 					<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">Video</h1>
@@ -86,11 +86,10 @@ include_once("../connect/session_check.php");
 			</div>
 		</div>
 	</section>
+	<?php include '../layouts/cta.php'; ?>
+	
 </main>
 <?php $content = ob_get_clean(); ?>
-
-<?php ob_start(); ?>
-
 <?php $scripts = ob_get_clean(); ?>
 
 <?php include '../layouts/base.php'; ?>

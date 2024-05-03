@@ -11,8 +11,7 @@
 }
 @media screen and (max-width: 992px) { // lg
 	.landing_main {
-		background-position: top center, bottom 250px center;
-		background-size: 115%, 130%;
+		background: none;
 	}
 	.section_hero {
 		.hero_text_box {
@@ -34,7 +33,7 @@
 		background: none;
 	}
 	.section {
-		padding: 20px 0 20px 0;
+		padding: 40px 0 40px 0;
 	}
 }
 @media screen and (max-width: 576px) { // sm

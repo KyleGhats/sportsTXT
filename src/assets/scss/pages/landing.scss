@@ -1,7 +1,7 @@
 .landing_main {
 	background-image: url('../img/hero_background.svg'), url('../img/platform_bg.svg');
 	background-repeat: no-repeat;
-	background-position: top center, bottom -50px center;
+	background-position: top center, bottom 670px center;
 	background-size: 100%, 110%;
 }
 
@@ -20,7 +20,10 @@
 
 .section_about {
 	.about_container {
-		background-color: var(--bs-blue);
+		// background-color: var(--bs-blue);
+
+		background: linear-gradient(288.08deg, rgba(2, 119, 220, 0.04) 4.53%, #014076 52.26%, rgba(2, 114, 211, 0.1264) 93.32%);
+
 		.about_img_container {
 			width: 100%;
 			display: flex;
@@ -33,7 +36,8 @@
 	.hiw_box {
 		.hiw_box_item{
 			border: 0;
-			background-color: var(--bs-blue);
+			// background-color: var(--bs-blue);
+			background: linear-gradient(180deg, #014076 0%, rgba(2, 119, 220, 0.2) 100%);
 		}
 	}
 }

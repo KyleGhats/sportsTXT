@@ -14,9 +14,9 @@ if ($dirFileName === "features") {
 	<div class="container">
 		<a class="navbar-brand" href="#">
 			<?php if ($in_concat == true) { ?>
-				<img src="./assets/img/logo/logo.avif" class="d-block mx-lg-auto img-fluid" alt="sportsTxT Logo" loading="lazy">
+				<img src="./assets/img/logo/logo.avif" class="d-block mx-lg-auto img-fluid" alt="sportsTxT Logo" loading="lazy" width="160">
 			<?php } else { ?>
-				<img src="../assets/img/logo/logo.avif" class="d-block mx-lg-auto img-fluid" alt="sportsTxT Logo" loading="lazy">
+				<img src="../assets/img/logo/logo.avif" class="d-block mx-lg-auto img-fluid" alt="sportsTxT Logo" loading="lazy" width="160">
 			<?php } ?>
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,13 @@ if ($dirFileName === "features") {
 					<a class="nav-link <?php echo $feature ?>" href="<?php echo $in_concat === true ? './features' : '../features'?>">Features</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link <?php echo $about ?>" href="../about">About Us</a>
+					<a class="nav-link <?php echo $about ?>" href="<?php echo $in_concat === true ? './about' : '../about'?>">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link <?php echo $contact ?>" href="../contact">Contact Us</a>
+					<a class="nav-link <?php echo $contact ?>" href="<?php echo $in_concat === true ? './contact' : '../contact'?>">Contact Us</a>
 				</li>
 			</ul>
-			<button type="button" class="btn default_btn px-4 py-2">Join the club</button>
+			<a type="button" class="btn default_btn fs-16 px-4 py-2"  href="<?php echo $in_concat === true ? './contact' : '../contact'?>">Join Us</a>
 		</div>
 	</div>
 </nav>

@@ -1,13 +1,18 @@
 @import "../components/_variables";
 
 .section {
-	padding: 40px 0 40px 0;
+	padding: 60px 0 60px 0;
+}
+
+.fs-16 {
+	font-size: 16px !important;
 }
 
 .default_btn {
 	border-radius: 0;
 	background-color: $secondary;
 	color: $white;
+	font-size: 18px;
 	transition: all 0.3s;
 	&:hover{
 		background-color: $secondary-300;

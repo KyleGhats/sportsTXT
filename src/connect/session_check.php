@@ -20,10 +20,10 @@ if (in_array($_SERVER['REMOTE_ADDR'], $localhostTrue)){
 } else {
     // NOT LOCALHOST - FOR LIVE SITE
     $localhost_status = false;
-    if ($_SERVER['PHP_SELF'] == "index.php" || $_SERVER['PHP_SELF'] == "/index.php" || $dirFileName == "dist" || $dirFileName == "") {
+    if ($_SERVER['PHP_SELF'] == "index.php" || $_SERVER['PHP_SELF'] == "/index.php" || $dirFileName == "dist" || $dirFileName == "sportstxt") {
         $index_status = true;
     } else {
-        $index_status = true;
+        $index_status = false;
     }
 }
 // EXECUTE OPTIONS
